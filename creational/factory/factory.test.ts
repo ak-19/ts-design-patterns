@@ -1,4 +1,4 @@
-import {Product1, Product2, ProductGeneric, Factory} from "./factory";
+import { Product1, Product2, ProductGeneric, Factory } from "../factory/factory";
 
 describe('When called with parameter 1', () => {
     test('should return instance of Product1 class ', () => expect(Factory.create(1)).toBeInstanceOf(Product1));

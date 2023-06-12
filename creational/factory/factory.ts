@@ -2,7 +2,6 @@ interface IProduct {
     name: string;
 }
 
-
 export class Product1 implements IProduct {
     name: string = 'Product 1';
 }
