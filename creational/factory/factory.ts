@@ -17,7 +17,7 @@ export class ProductGeneric implements IProduct {
 export class Factory {
     static create(type: number): IProduct {
         if (type === 1) return new Product1();
-        if (type === 2) return new Product2;        
+        if (type === 2) return new Product2();        
         return new ProductGeneric();
     }
 }

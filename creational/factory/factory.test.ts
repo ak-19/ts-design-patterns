@@ -6,6 +6,7 @@ describe('When called with parameter 1', () => {
 
 describe('When called with parameter 2', () => {
     test('should return instance of Product2 class ', () => expect(Factory.create(2)).toBeInstanceOf(Product2));
+    test('should return instance of Product2 class ', () => expect(Factory.create(2)).toHaveProperty('name', 'Product 2')); 
 });
 
 describe('When called with non handled parameter', () => {
