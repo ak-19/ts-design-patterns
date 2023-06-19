@@ -7,3 +7,12 @@ describe('When a = 1 and b = 2 values are pushed through add, then substract wit
         expect(evaluate(substract(add(a, b), b))).toBe(1);
     });
 });
+
+
+describe('When a = 1 and b = 2 values are pushed through add, then substract with b and then evaluate', () => {
+    test('should return 1', () => {
+        const a = 1; 
+        const b = 2;
+        expect(evaluate(substract(add(a, b), b))).toBe(1);
+    });
+});
