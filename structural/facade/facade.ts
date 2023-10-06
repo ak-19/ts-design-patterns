@@ -5,7 +5,7 @@ export default class Facade {
     private subSystemA: SubSystemA;
     private subSystemB: SubSystemB;
 
-    constructor(subSystemA, subSystemB) {
+    constructor(subSystemA: SubSystemA, subSystemB: SubSystemB) {
         this.subSystemA = subSystemA;
         this.subSystemB = subSystemB;
     }
